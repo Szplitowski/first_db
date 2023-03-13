@@ -130,6 +130,8 @@ if __name__ == '__main__':
         # delete_where(conn, 'table0', name='Michal')
 
         # delete_all(conn, 'table0')
+        
+        conn.close()
 
     else:
         print("Error while connecting to db")
